@@ -1,0 +1,39 @@
+.inputForm{
+    /* border: 2px solid black; */
+    padding: 1rem;
+}
+.inputForm label{
+    padding: 5px;
+	top:0px;
+	left:0px;
+	font-size:16px;
+	color:rgb(0, 0, 0);	
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.inputForm input{
+    border:0;
+    border-bottom:1px solid #555;  
+    background:transparent;
+    width:100%;
+    padding:8px 0 5px 0;
+    font-size:16px;
+    color:rgb(0, 0, 0);
+}
+.inputForm button{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    box-shadow: rgb(0 0 0 / 2%) 0 1px 3px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+ 
+}
+.buttonSearch{
+    margin-top: 5px;
+}
+.lableDiv{
+    margin-bottom: 1rem;
+}

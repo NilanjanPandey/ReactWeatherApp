@@ -1,0 +1,57 @@
+.weatherDetails {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.weatherData {
+  padding: 1rem;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+.weatherData .leftSideWeatherData {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+  align-items: flex-start;
+  padding: 1rem;
+}
+.weatherData .rightSideWeatherData {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
+.rightSideWeatherData h1 {
+  font-size: 70px;
+  color: blueviolet;
+}
+@media only screen and (max-width: 600px) {
+  .weatherDetails {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .weatherData {
+    display: flex;
+    flex-direction: column;
+  }
+  .weatherData .rightSideWeatherData h1 {
+    margin: 0px;
+  }
+  .weatherData .leftSideWeatherData {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .weatherData .leftSideWeatherData img {
+    margin: 10px;
+  }
+}

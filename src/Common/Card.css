@@ -1,0 +1,19 @@
+.container{
+    margin: 7rem auto;
+    max-width: 90%;
+    height: 50vh;
+    box-shadow: 10px 10px 15px grey;
+    border-radius: 5px;
+    padding: 5px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex:50%;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
