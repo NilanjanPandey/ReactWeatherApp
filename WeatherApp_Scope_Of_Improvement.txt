@@ -1,0 +1,8 @@
+Scope Of Improvement:
+
+1. Test cases are not included - Hence there are chances to work on this area.
+2. Routing can be introduced for different functionalities to be introduced such as : 24hrs Forecast, 7Days Forecast.
+3. Media Queries for wide rage of devices.
+4. Introducing BootStrap/ Material UI.
+5. Login / Registration Feature.
+6. Geolocation for current location weather data.
