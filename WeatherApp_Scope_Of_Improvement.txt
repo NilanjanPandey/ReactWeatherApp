@@ -1,4 +1,4 @@
-Scope Of Improvement:
+##Scope Of Improvement:
 
 1. Test cases are not included - Hence there are chances to work on this area.
 2. Routing can be introduced for different functionalities to be introduced such as : 24hrs Forecast, 7Days Forecast.
@@ -6,3 +6,5 @@ Scope Of Improvement:
 4. Introducing BootStrap/ Material UI.
 5. Login / Registration Feature.
 6. Geolocation for current location weather data.
+7. More Error Handling cases, such as: Number/String validation.
+8. DropDown menu offering supported country names.
